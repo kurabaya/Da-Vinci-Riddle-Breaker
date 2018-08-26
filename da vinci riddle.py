@@ -17,8 +17,8 @@ def formuler(length):
     result2 = []
     for n in range(length):
         index.append(n+1)
-        result1.append(n)
-        result2.append(n+1)
+        result1.append(0)
+        result2.append(n-1)
     index[length-1] = 0
 
     while result1 != result2 :
